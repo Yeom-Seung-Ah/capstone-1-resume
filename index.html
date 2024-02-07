@@ -2,30 +2,74 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>My Resume</title>
+        <title>SeungAh's Resume</title>
         <style>
-            html{
-                font-family:'Times New Roman', Times, serif;
+            html {
+            font-family: 'Times New Roman', Times, serif;
+            height: 100%;
             }
+
+            footer{
+                margin-bottom: 15px;
+            }
+
+            body {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+                min-height: 100vh;
+                margin: 0;
+            }
+
+            #first {
+                margin-top: -20px;
+                margin-left: -170px;
+            }
+
+            #second {
+                margin-top: -50px;
+                margin-left: -550px;
+                margin-bottom: 10px;
+            }
+
+            #third {
+                margin-top: -160px;
+                margin-left: 150px;
+                width: 530px;
+            }
+
+            #fourth {
+                width: 700px;
+            }
+
+            
         </style>
     </head>
 
     <body>
-        <h1>SeungAh's Resume</h1>
+        <div id="fourth">
         <hr/>
-        <h2>SeungAh Yeom</h2>
-        <img src="./images/seungAh.jpg" width="130" alt="SeungAh"/>
-        <hr/>
+        </div>
 
-        <h2>Summary</h2>
+        <div id="first">
+        <h1>SeungAh Yeom</h1>
+        </div>
+        <div id="second">
+        <img src="./images/seungAh.jpg" width="130" alt="SeungAh"/>
+        </div>
+
+        <div id="third">
         <p>IT professional with over 1years of experience in web development.
         Expertise in full-stack development with proficiency in JavaScript, React, and Node.js.
         Passionate about leveraging technology to solve complex problems and improve user experiences. 
         Particularly, my keen attention to detail and sharp eye for aesthetics are my strengths, ensuring that I don't overlook the visual elements of web design while developing. 
         I'm always trying to seek new opportunities to contribute my skills and drive innovation.
         </p>
+       
+        </div>
+        <div id="fourth">
         <hr/>
-        
         <h2>Education</h2>
         <ul>
             <li>Information technology - university of Kookmin (2020-2024)</li>
@@ -63,8 +107,9 @@
             <li>Certificate of Research Project Participation: I-Tracker Undergraduate Research - MIS of Kookmin Univ. (December 2023)</li>
         </ul>
         <hr/>
+        </div>
 
-        <footer role="contentinfo" style="text-align: center;">
+        <footer role="contentinfo">
             <small>
                 Copyright © 2024 SeungAh Yeom
             </small>
