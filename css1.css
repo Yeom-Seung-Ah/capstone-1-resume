@@ -28,9 +28,3 @@ hr {
 #foot{
     margin-bottom: 10px;
 }
-
-@media (max-width:710px){
-    body{
-        max-width: 480px;
-    }
-}
